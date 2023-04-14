@@ -1,0 +1,9 @@
+@@ -51,8 +51,8 @@ function submit(){
+        post = post + "<div class=\"tile is-child box\"><h1 class=\"title is-5\">" + commentTitle.value + "</h1><p>" + commentBody.value + "</p> </div>";
+        postField.innerHTML = post;
+        setCookie("postscookie", post, 90);
+        commentBody.value = "";
+        commentTitle.value = "";
+        commentBody.value = null;
+        commentTitle.value = null;
+    }
